@@ -48,9 +48,9 @@ export default function App() {
             <TouchableOpacity onPress={() => setMode("menu")}><Text style={styles.back}>MAIN MENU</Text></TouchableOpacity>
           </View>
           <View style={styles.healthRow}>
-            <View style={styles.healthBox}><Text style={styles.fighterName}>SHADOW</Text><View style={styles.healthTrack}><View style={[styles.healthFill,{width:playerHealth+"%"}]}/></View></View>
+            <View style={styles.healthBox}><Text style={styles.fighterName}>DIMEJIHVIEWS</Text><View style={styles.healthTrack}><View style={[styles.healthFill,{width:playerHealth+"%"}]}/></View></View>
             <Text style={styles.vs}>VS</Text>
-            <View style={styles.healthBox}><Text style={[styles.fighterName,{textAlign:"right"}]}>RIVAL</Text><View style={styles.healthTrack}><View style={[styles.enemyFill,{width:enemyHealth+"%"}]}/></View></View>
+            <View style={styles.healthBox}><Text style={[styles.fighterName,{textAlign:"right"}]}>KENNYVIEW</Text><View style={styles.healthTrack}><View style={[styles.enemyFill,{width:enemyHealth+"%"}]}/></View></View>
           </View>
           <View style={styles.stage}>
             <Text style={styles.fighter}>🥷</Text><Text style={styles.stageVs}>⚔</Text><Text style={styles.fighter}>🥷</Text>
