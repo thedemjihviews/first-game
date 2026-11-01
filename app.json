@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Shadow Clash",
+    "slug": "shadow-clash",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.dsafelab.shadowclash",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
