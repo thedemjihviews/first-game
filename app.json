@@ -10,11 +10,6 @@
       "versionCode": 1,
       "permissions": []
     },
-    "plugins": [],
-    "extra": {
-      "eas": {
-        "projectId": ""
-      }
-    }
+    "plugins": []
   }
 }
