@@ -10,6 +10,11 @@
       "versionCode": 1,
       "permissions": []
     },
-    "plugins": []
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "3d96323c-9376-4da4-acb2-a31ff31eb5ab"
+      }
+    }
   }
 }
