@@ -1,25 +1,22 @@
 # Shadow Clash
 
-A landscape 2D fighting game prototype built with HTML, CSS and JavaScript.
+Shadow Clash is an **offline Android game built with Expo / React Native and EAS Build**. It is not intended to be played in a browser.
 
-## Play locally
-Open `index.html` in a modern browser.
+## Build an Android APK
 
-## Controls
-- A / D or arrow keys: move
-- W / Up: jump
-- J: punch
-- K: kick
-- L: block
-- Space: special attack (when charged)
-- Touch controls are available on screen.
+1. Connect this repository to EAS Build.
+2. Select the `main` branch.
+3. Select the `preview` build profile.
+4. EAS will produce an installable Android APK.
 
-## Game modes
-- Story mode: progress through increasingly difficult fights.
-- Tournament: fight a continuous series of opponents.
-- Win fights to unlock additional fighters and progress-based special attacks.
+The `preview` profile is configured for APK output. The `production` profile is configured for an Android App Bundle (AAB).
 
-Progress is saved in the browser using local storage.
+## Project
 
-## Publish with GitHub Pages
-In the repository, open **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save.
+- Expo SDK 58
+- React Native 0.88
+- Landscape orientation
+- Offline-first; no account or sign-in required
+- EAS configuration in `eas.json`
+
+The current native app is the initial Expo foundation. Full fighting gameplay, animations, character progression, and local save data still need to be developed.
